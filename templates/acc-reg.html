@@ -20,24 +20,37 @@
         <h1>Registration</h1>
     <div>
         <label>
-            <input placeholder="Enter username" required>
+            <input placeholder="Enter username" type = "text" class="field" id="username" required>
+        </label>
+    </div>
+        <div>
+            <label>
+                <input placeholder="Enter first name" type = "text" class="field" id="firstname" required>
+            </label>
+        </div>
+        <div>
+            <label>
+                <input placeholder="Enter last name" type = "text" class="field" id="lastname" required>
+            </label>
+        </div>
+    <div>
+        <label>
+            <input placeholder="Enter email" type = "email" class="field" id="email" required>
         </label>
     </div>
     <div>
         <label>
-            <input placeholder="Enter email" required>
+            <input placeholder="Enter password" type = "password" class="field" id="password" required>
         </label>
     </div>
     <div>
         <label>
-            <input placeholder="Enter password" required>
+            <input placeholder="Repeat password" id="repeat_password" type = "password" class="field" required>
         </label>
     </div>
-    <div>
         <label>
-            <input placeholder="Repeat password" required>
+            <input placeholder="Input your location" type = "number" id="location_idlocation" required>
         </label>
-    </div>
         <div>
             <label>
                 <select class="select-role">
@@ -48,12 +61,15 @@
         </div>
 
         <div>
-            <a href="acc.html" class="button">
-                <button>Create account</button>
-            </a>
+                <button class="signUpButton">Create account</button>
         </div>
+
+        <p class="error"></p>
     </form>
     <a href="login.html" class="login_button">Already have an account? - Sign in!</a>
 </main>
+
+<script src="../scripts/acc-reg.js"></script>
+
 </body>
 </html>

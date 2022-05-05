@@ -18,7 +18,7 @@
 
 
 .form {
-    padding: 100px;
+    padding: 80px;
     margin: 100px auto 100px;
     background: #FFFFFF;
     text-align: center;
@@ -62,7 +62,7 @@
 }
 
 
-.form button{
+.form .signUpButton{
     background-color: #ff6347;
     border: none;
     color: white;
@@ -76,7 +76,7 @@
     cursor: pointer;
 }
 
-.form button:hover {
+.form .signUpButton:hover {
     background-color: #ff9147;
     color: black;
 }
@@ -118,3 +118,8 @@ body {
     color:black;
 }
 
+.error {
+    font-size: 1rem;
+    color: darkred;
+    font-weight: bold;
+}
